@@ -29,7 +29,7 @@ const white_list = JSON.parse(typeof(WHITE_LIST)!="undefined" ? WHITE_LIST
     ]`)
 // 演示模式开启时网页上展示这段禁止滥用提示，并不需要明确表示什么时候失效，
 const demo_notice = typeof(DEMO_NOTICE)!="undefined" ? DEMO_NOTICE
-    : ` `
+    : `短网址服务可以帮您 把长长的网址压缩成短网址，缩短为更简短、方便使用和记忆的短网址！ `
 //console.log(`${github_repo}, ${github_version}, ${password}, ${shorten_timeout}, ${demo_mode}, ${white_list}, ${demo_notice}`)
 const html404 = `<!DOCTYPE html>
 <body>
